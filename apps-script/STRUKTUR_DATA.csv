@@ -1,0 +1,13 @@
+kolom,tipe,wajib,keterangan
+id,string,ya,ID unik resep
+tanggal,YYYY-MM-DD,ya,Tanggal resep
+nomor,string,ya,Nomor resep unik
+unit,string,ya,Unit pelayanan
+penulis,string,tidak,Dokter atau penulis resep
+obat,string,ya,Nama kekuatan dan bentuk obat
+jumlah,number,ya,Jumlah sesuai satuan
+dosis,string,tidak,Aturan pakai sesuai resep
+status,string,ya,Menunggu Diproses Selesai
+catatan,string,tidak,Catatan operasional tanpa data sensitif
+createdAt,datetime,ya,Waktu pencatatan
+updatedAt,datetime,ya,Waktu pembaruan
