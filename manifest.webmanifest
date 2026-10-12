@@ -1,0 +1,18 @@
+{
+  "name": "RESEP OBAT HARIAN - Puskesmas Ngalupolo",
+  "short_name": "Resep Obat",
+  "description": "Pencatatan dan rekap resep obat harian",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f7f8",
+  "theme_color": "#12364a",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
