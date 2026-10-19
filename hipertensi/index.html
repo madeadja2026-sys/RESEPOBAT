@@ -81,7 +81,9 @@
 <script>
 const KEY='tekananku_records_v1',PLAN='tekananku_plan_v1',MEDKEY='tekananku_medications_v1';let records=load(),medications=loadMeds(),deferredPrompt=null;
 const $=id=>document.getElementById(id);
-function load(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch{return []}}\nfunction loadMeds(){try{return JSON.parse(localStorage.getItem(MEDKEY)||'[]')}catch{return []}}\nfunction persistMeds(){localStorage.setItem(MEDKEY,JSON.stringify(medications));renderMeds()}
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch{return []}}
+function loadMeds(){try{return JSON.parse(localStorage.getItem(MEDKEY)||'[]')}catch{return []}}
+function persistMeds(){localStorage.setItem(MEDKEY,JSON.stringify(medications));renderMeds()}
 function persist(){localStorage.setItem(KEY,JSON.stringify(records));render()}
 function localDate(){let d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
 function go(id){$(id).scrollIntoView({behavior:'smooth',block:'start'})}
