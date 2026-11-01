@@ -1,0 +1,13 @@
+{
+  "id": "./",
+  "name": "BUKERJA - Buku Kerja Terpadu Puskesmas Ngalupolo",
+  "short_name": "BUKERJA",
+  "description": "Buku kerja harian, rencana, monitoring, dokumentasi dan evaluasi tenaga kesehatan Puskesmas Ngalupolo",
+  "lang": "id-ID",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f6f6",
+  "theme_color": "#174b57"
+}
